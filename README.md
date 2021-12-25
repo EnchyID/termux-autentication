@@ -9,7 +9,9 @@ Open The Termux
 Run Command
 
 $ apt update -y && apt upgrade -y
+
 $ apt install nodejs -y
+
 $ termux-setup-storage 
 
 (Click Allow)
