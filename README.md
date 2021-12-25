@@ -17,6 +17,7 @@ Extract termux-autentication.zip
 Open back termux
 
 $ cd storage/download/termux-autentication
+
 $ npm install
 
 Wait a moment...
