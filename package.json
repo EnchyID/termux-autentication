@@ -1,0 +1,12 @@
+{
+  "name": "termux",
+  "version": "1.0.0",
+  "description": "Termux Script With Database",
+  "main": "index.js",
+  "author": "EntityN3",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "simple-json-db": "^1.2.3"
+  }
+}
