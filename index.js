@@ -17,7 +17,7 @@ function send(){
 	}
 	if(input == 2){
 		sendIn()
-		return true;
+		return true
 	}
 }
 
@@ -26,8 +26,8 @@ function sendUp(){
 	console.log(" +--------(Signup)--------+\n")
 	const user = readline.question("\n> Username: ")
 	if(db.has(user)){
-		sendIn();
-		return true;
+		sendIn()
+		return true
 	}
 	const pass = readline.question("> Password: ")
 	db.set(user, {
@@ -45,7 +45,7 @@ function sendIn(){
 	const user = readline.question("\n> Username: ")
 	if(!db.has(user)){
 		sendUp()
-		return true;
+		return true
 	}
 	const pass = readline.question("> Password: ")
 	if(pass !== data[user]["password"]){
@@ -63,9 +63,9 @@ function sendManage(user){
 	console.log("| Rank Type: " + data[user]["rank"])
 	console.log("| Balance: $" + data[user]["balance"])
 	console.log("\n\nThis is form your account.")
-	console.log("(0) for Logout");
-	const input = readline.question("\n> Select: ");
+	console.log("(0) for Logout")
+	const input = readline.question("\n> Select: ")
 	if(input == 0){
-		return true;
+		return true
 	}
 }
