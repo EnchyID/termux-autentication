@@ -15,7 +15,9 @@ $ apt install nodejs -y
 $ termux-setup-storage 
 
 (Click Allow)
+
 Extract termux-autentication.zip
+
 Open back termux
 
 $ cd storage/download/termux-autentication
